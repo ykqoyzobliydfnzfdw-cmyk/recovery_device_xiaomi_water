@@ -1,4 +1,4 @@
-name: Recovery Build
+name: PBRB Recovery Build
 
 on:
   workflow_dispatch:
@@ -40,7 +40,7 @@ on:
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
-        default: 'vendorboot'
+        default: 'boot'
 
 jobs:
   build:
