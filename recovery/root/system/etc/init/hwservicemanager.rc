@@ -1,0 +1,5 @@
+service hwservicemanager /system/bin/hwservicemanager
+    user system
+    group system readproc
+    critical
+
