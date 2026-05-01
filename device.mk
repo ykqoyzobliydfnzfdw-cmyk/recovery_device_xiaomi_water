@@ -28,8 +28,6 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
     android.hardware.boot@1.0-service
 
-PRODUCT_PACKAGES += \
-    bootctrl.mt6765
 
 PRODUCT_COPY_FILES += \
     device/xiaomi/water/recovery/root/first_stage_ramdisk/fstab.mt6765:$(TARGET_COPY_OUT_RAMDISK)/first_stage_ramdisk/fstab.mt6765
